@@ -1,9 +1,49 @@
-# Python
+# Python bytecode и кэш
 __pycache__/
-*.pyc
-.env
-# IDE
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv
+.venv/
+
+# Файлы IDE и редакторов
 .vscode/
 .idea/
-# OS
+*.swp
+*.swo
+*~
+.DS_Store
+desktop.ini
+
+# Логи и базы данных
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Конфигурация с секретами (важно для безопасности)
+.env
+.env.local
+config/secrets.ini
+
+# Артефакты тестирования и покрытия
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Файлы сборки и дистрибуции
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Временные файлы ОС
+Thumbs.db
 .DS_Store
